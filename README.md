@@ -15,11 +15,11 @@ let oauth = OAuthKeysAndTokens(apiKey: "<paste api key here>",
 ```
 > Instantiate a new statuses filter
 ```swift		   
-let api: GBGTweetSFRequestDelegate = GBGTweetStatusesFilter(oauth)
+let api: PJCTweetSFRequestDelegate = PJCTweetStatusesFilter(oauth)
 ```
 > Write a handler to accept new results
 ```swift
-let handler: GBGTweetSFResponseHandler =
+let handler: PJCTweetSFResponseHandler =
 { (result) in 
 	
     if let tweet = try? result.get()
@@ -28,9 +28,9 @@ let handler: GBGTweetSFResponseHandler =
 ```
 > Create a parameter track set and let the good times roll
 ```swift
-let items = ["nasa", "spacex"].compactMap({ GBGTweetSFTrackItem($0) })
-let track = GBGTweetSFTrack(items: items)
-let parameters = GBGTweetSFParameters(track)
+let items = ["nasa", "spacex"].compactMap({ PJCTweetSFTrackItem($0) })
+let track = PJCTweetSFTrack(items: items)
+let parameters = PJCTweetSFParameters(track)
 
 self.api.request(parameters, 
 		 completion: handler)
