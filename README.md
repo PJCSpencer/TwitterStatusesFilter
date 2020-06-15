@@ -9,9 +9,9 @@ https://developer.twitter.com/en/docs/basics/apps/guides/the-app-management-dash
 ```swift
 // Grab the keys and tokens.
 let oauth = OAuthKeysAndTokens(apiKey: "<paste api key here>",
-							                 apiSecretKey: "<paste api secret key here>",
-							                 accessToken: "<paste access token here>",
-							                 accessTokenSecret: "<paste access token secret here>")
+			       apiSecretKey: "<paste api secret key here>",
+			       accessToken: "<paste access token here>",
+			       accessTokenSecret: "<paste access token secret here>")
 ```
 > Instantiate a new statuses filter
 ```swift		   
@@ -33,5 +33,5 @@ let track = GBGTweetSFTrack(items: items)
 let parameters = GBGTweetSFParameters(track)
 
 self.api.request(parameters, 
-				         completion: handler)
+		 completion: handler)
 ```
