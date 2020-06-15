@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C26E1FEC2492BF08001BD400 /* TweetCore.h in Headers */ = {isa = PBXBuildFile; fileRef = C26E1FEA2492BF08001BD400 /* TweetCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C26E20212492BFEB001BD400 /* PJCTweetStatusesFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E20132492BFEB001BD400 /* PJCTweetStatusesFilter.swift */; };
+		C26E20222492BFEC001BD400 /* PJCEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E20142492BFEB001BD400 /* PJCEnvironment.swift */; };
+		C26E20232492BFEC001BD400 /* PJCTweetSFParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E20152492BFEB001BD400 /* PJCTweetSFParameters.swift */; };
+		C26E20242492BFEC001BD400 /* PJCTweetStatusesFilter+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E20162492BFEB001BD400 /* PJCTweetStatusesFilter+Additions.swift */; };
+		C26E20252492BFEC001BD400 /* PJCTweetAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E20172492BFEB001BD400 /* PJCTweetAPI.swift */; };
+		C26E20262492BFEC001BD400 /* PJCSession+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E20192492BFEB001BD400 /* PJCSession+Additions.swift */; };
+		C26E20272492BFEC001BD400 /* PJCDataStreamService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E201A2492BFEB001BD400 /* PJCDataStreamService.swift */; };
+		C26E20292492BFEC001BD400 /* PJCOAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E201D2492BFEB001BD400 /* PJCOAuth.swift */; };
+		C26E202A2492BFEC001BD400 /* PJCCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E201E2492BFEB001BD400 /* PJCCrypto.swift */; };
+		C26E202B2492BFEC001BD400 /* PJCTweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E20202492BFEB001BD400 /* PJCTweet.swift */; };
+		C26E202F2492C082001BD400 /* URLSession+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E202D2492C081001BD400 /* URLSession+Additions.swift */; };
+		C26E20302492C082001BD400 /* Foundation+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E202E2492C081001BD400 /* Foundation+Additions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C26E1FE72492BF08001BD400 /* TweetCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TweetCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26E1FEA2492BF08001BD400 /* TweetCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TweetCore.h; sourceTree = "<group>"; };
+		C26E1FEB2492BF08001BD400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C26E20132492BFEB001BD400 /* PJCTweetStatusesFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PJCTweetStatusesFilter.swift; sourceTree = "<group>"; };
+		C26E20142492BFEB001BD400 /* PJCEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PJCEnvironment.swift; sourceTree = "<group>"; };
+		C26E20152492BFEB001BD400 /* PJCTweetSFParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PJCTweetSFParameters.swift; sourceTree = "<group>"; };
+		C26E20162492BFEB001BD400 /* PJCTweetStatusesFilter+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PJCTweetStatusesFilter+Additions.swift"; sourceTree = "<group>"; };
+		C26E20172492BFEB001BD400 /* PJCTweetAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PJCTweetAPI.swift; sourceTree = "<group>"; };
+		C26E20192492BFEB001BD400 /* PJCSession+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PJCSession+Additions.swift"; sourceTree = "<group>"; };
+		C26E201A2492BFEB001BD400 /* PJCDataStreamService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PJCDataStreamService.swift; sourceTree = "<group>"; };
+		C26E201D2492BFEB001BD400 /* PJCOAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PJCOAuth.swift; sourceTree = "<group>"; };
+		C26E201E2492BFEB001BD400 /* PJCCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PJCCrypto.swift; sourceTree = "<group>"; };
+		C26E20202492BFEB001BD400 /* PJCTweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PJCTweet.swift; sourceTree = "<group>"; };
+		C26E202D2492C081001BD400 /* URLSession+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSession+Additions.swift"; sourceTree = "<group>"; };
+		C26E202E2492C081001BD400 /* Foundation+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Additions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C26E1FE42492BF08001BD400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C26E1FDD2492BF08001BD400 = {
+			isa = PBXGroup;
+			children = (
+				C26E1FE92492BF08001BD400 /* TweetCore */,
+				C26E1FE82492BF08001BD400 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C26E1FE82492BF08001BD400 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C26E1FE72492BF08001BD400 /* TweetCore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C26E1FE92492BF08001BD400 /* TweetCore */ = {
+			isa = PBXGroup;
+			children = (
+				C26E1FEA2492BF08001BD400 /* TweetCore.h */,
+				C26E202C2492C081001BD400 /* Extension */,
+				C26E1FF72492BF51001BD400 /* Class */,
+				C26E1FEB2492BF08001BD400 /* Info.plist */,
+			);
+			path = TweetCore;
+			sourceTree = "<group>";
+		};
+		C26E1FF72492BF51001BD400 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C26E201C2492BFEB001BD400 /* Security */,
+				C26E20182492BFEB001BD400 /* Network */,
+				C26E20122492BFEB001BD400 /* API */,
+				C26E201F2492BFEB001BD400 /* Model */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		C26E20122492BFEB001BD400 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C26E20142492BFEB001BD400 /* PJCEnvironment.swift */,
+				C26E20172492BFEB001BD400 /* PJCTweetAPI.swift */,
+				C26E20152492BFEB001BD400 /* PJCTweetSFParameters.swift */,
+				C26E20132492BFEB001BD400 /* PJCTweetStatusesFilter.swift */,
+				C26E20162492BFEB001BD400 /* PJCTweetStatusesFilter+Additions.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C26E20182492BFEB001BD400 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C26E20192492BFEB001BD400 /* PJCSession+Additions.swift */,
+				C26E201A2492BFEB001BD400 /* PJCDataStreamService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C26E201C2492BFEB001BD400 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				C26E201D2492BFEB001BD400 /* PJCOAuth.swift */,
+				C26E201E2492BFEB001BD400 /* PJCCrypto.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		C26E201F2492BFEB001BD400 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C26E20202492BFEB001BD400 /* PJCTweet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C26E202C2492C081001BD400 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C26E202E2492C081001BD400 /* Foundation+Additions.swift */,
+				C26E202D2492C081001BD400 /* URLSession+Additions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C26E1FE22492BF08001BD400 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26E1FEC2492BF08001BD400 /* TweetCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C26E1FE62492BF08001BD400 /* TweetCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26E1FEF2492BF08001BD400 /* Build configuration list for PBXNativeTarget "TweetCore" */;
+			buildPhases = (
+				C26E1FE22492BF08001BD400 /* Headers */,
+				C26E1FE32492BF08001BD400 /* Sources */,
+				C26E1FE42492BF08001BD400 /* Frameworks */,
+				C26E1FE52492BF08001BD400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TweetCore;
+			productName = TweetCore;
+			productReference = C26E1FE72492BF08001BD400 /* TweetCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C26E1FDE2492BF08001BD400 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Peter Spencer";
+				TargetAttributes = {
+					C26E1FE62492BF08001BD400 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = C26E1FE12492BF08001BD400 /* Build configuration list for PBXProject "TweetCore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C26E1FDD2492BF08001BD400;
+			productRefGroup = C26E1FE82492BF08001BD400 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C26E1FE62492BF08001BD400 /* TweetCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C26E1FE52492BF08001BD400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C26E1FE32492BF08001BD400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26E202B2492BFEC001BD400 /* PJCTweet.swift in Sources */,
+				C26E20252492BFEC001BD400 /* PJCTweetAPI.swift in Sources */,
+				C26E20262492BFEC001BD400 /* PJCSession+Additions.swift in Sources */,
+				C26E20292492BFEC001BD400 /* PJCOAuth.swift in Sources */,
+				C26E20302492C082001BD400 /* Foundation+Additions.swift in Sources */,
+				C26E20232492BFEC001BD400 /* PJCTweetSFParameters.swift in Sources */,
+				C26E202F2492C082001BD400 /* URLSession+Additions.swift in Sources */,
+				C26E20272492BFEC001BD400 /* PJCDataStreamService.swift in Sources */,
+				C26E20222492BFEC001BD400 /* PJCEnvironment.swift in Sources */,
+				C26E202A2492BFEC001BD400 /* PJCCrypto.swift in Sources */,
+				C26E20242492BFEC001BD400 /* PJCTweetStatusesFilter+Additions.swift in Sources */,
+				C26E20212492BFEB001BD400 /* PJCTweetStatusesFilter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C26E1FED2492BF08001BD400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C26E1FEE2492BF08001BD400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C26E1FF02492BF08001BD400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 94M3Z6LE6G;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TweetCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spencers-dm.TweetCore";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C26E1FF12492BF08001BD400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 94M3Z6LE6G;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TweetCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spencers-dm.TweetCore";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C26E1FE12492BF08001BD400 /* Build configuration list for PBXProject "TweetCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26E1FED2492BF08001BD400 /* Debug */,
+				C26E1FEE2492BF08001BD400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26E1FEF2492BF08001BD400 /* Build configuration list for PBXNativeTarget "TweetCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26E1FF02492BF08001BD400 /* Debug */,
+				C26E1FF12492BF08001BD400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C26E1FDE2492BF08001BD400 /* Project object */;
+}
