@@ -26,7 +26,7 @@ let handler: PJCTweetSFResponseHandler =
     { print("Tweet:\(tweet)") }
 }
 ```
-> Create a parameter track set and let the good times roll
+> Create a parameter track and let the good times roll
 ```swift
 let items = ["nasa", "spacex"].compactMap({ PJCTweetSFTrackItem($0) })
 let track = PJCTweetSFTrack(items: items)
