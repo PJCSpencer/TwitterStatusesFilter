@@ -32,6 +32,6 @@ let items = ["nasa", "spacex"].compactMap({ PJCTweetSFTrackItem($0) })
 let track = PJCTweetSFTrack(items: items)
 let parameters = PJCTweetSFParameters(track)
 
-self.api.request(parameters, 
-		 completion: handler)
+api.request(parameters, 
+	    completion: handler)
 ```
